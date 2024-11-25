@@ -9,4 +9,10 @@ The `docker-compose` is followed as the latest Airflow docker-compose version by
 #### Demo DAG
 I implement one DAG as an example for this project run. The DAG will get data which are Reddit posts through Reddit API (https://www.reddit.com/dev/api/), then do some transformations and export the data as CSV files in folder `/data/output`.
 
-
+```mermaid
+flowchart LR
+    step1["Reddit posts _(RedditAPI)_"]
+    step2["Transform"]
+    step3["CSV files"]
+    step1 --> step2 --> step3
+```
