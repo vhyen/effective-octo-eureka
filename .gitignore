@@ -1,0 +1,7 @@
+/data/output
+/config/config.conf 
+
+*/__pycache__
+/logs
+
+.env

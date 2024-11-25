@@ -1,0 +1,8 @@
+bs4
+selenium
+boto3
+praw
+configparser
+pyspark
+awscli
+azure-cli==2.65.0
